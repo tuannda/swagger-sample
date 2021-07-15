@@ -1,0 +1,28 @@
+{
+  "name": "swagger-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --watch docs --ext *.yaml app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuannda/swagger-sample.git"
+  },
+  "author": "CodeBase.VN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuannda/swagger-sample/issues"
+  },
+  "homepage": "https://github.com/tuannda/swagger-sample#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
